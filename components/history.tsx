@@ -25,7 +25,7 @@ export default function History() {
           {/* Left Side Image */}
           <div className="w-full h-full overflow-hidden rounded-2xl">
             <img
-              src="/sigCutz.jpeg" 
+              src="/sigcutz.jpeg" 
               alt="Barbershop history"
               className="w-full h-[500px] object-cover object-center rounded-2xl shadow-lg"
             />
