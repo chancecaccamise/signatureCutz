@@ -5,7 +5,7 @@ const historyFeatures = [
   {
     name: 'Our Beginning.',
     description:
-      'Signature Cutz started with a simple goal: to provide exceptional haircuts and create a space where clients feel like family. From our humble beginnings, we’ve grown into a trusted name, especially among NFL players.',
+      'Signature Cutz started with a simple goal: to provide exceptional haircuts and create a space where clients feel like family. From our humble beginnings, we&apos;ve grown into a trusted name, especially among NFL players.',
     icon: CloudArrowUpIcon,
   },
   {
@@ -25,7 +25,7 @@ export default function History() {
           {/* Left Side Image */}
           <div className="w-full h-full overflow-hidden rounded-2xl">
             <img
-              src="/sigCutz.jpeg" // Replace with the image of your barbershop's history or photo
+              src="/sigCutz.jpeg" 
               alt="Barbershop history"
               className="w-full h-[500px] object-cover object-center rounded-2xl shadow-lg"
             />
@@ -39,7 +39,7 @@ export default function History() {
                 A History of Excellence
               </p>
               <p className="mt-6 text-lg text-white">
-                Signature Cutz has been serving the community with precision and style for years. We've made a name for ourselves in the world of professional athletes and everyday customers alike, creating an experience that goes beyond just a haircut.
+                Signature Cutz has been serving the community with precision and style for years. We&apos;ve made a name for ourselves in the world of professional athletes and everyday customers alike, creating an experience that goes beyond just a haircut.
               </p>
               <dl className="mt-10 space-y-8 text-base text-white">
                 {historyFeatures.map((feature) => (
