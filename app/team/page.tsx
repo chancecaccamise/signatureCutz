@@ -1,6 +1,7 @@
 // pages/index.tsx
 
 
+import Footer from "@/components/footer";
 import MeetTheTeam from "@/components/MeetTheTeam";
 import Navbar from "@/components/navbar";
 
@@ -12,8 +13,9 @@ export default function Home() {
       
       <Navbar/>
       <MeetTheTeam/>
-      
 
+
+      <Footer/>
     </main>
   );
 }

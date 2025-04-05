@@ -1,6 +1,7 @@
 // pages/index.tsx
 
 
+import Footer from "@/components/footer";
 import { Gallery } from "@/components/gallery";
 import Navbar from "@/components/navbar";
 
@@ -12,6 +13,11 @@ export default function Home() {
       
       <Navbar/>
       <Gallery/>
+
+
+
+
+      <Footer/>
       
 
     </main>

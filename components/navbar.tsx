@@ -26,7 +26,7 @@ export default function Navbar() {
             <span className="sr-only">Signature Cutz</span>
             <img
               alt="Logo"
-              src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=500"
+              src="/CutzLogo.png"
               className="h-8 w-auto"
             />
           </Link>
@@ -73,7 +73,7 @@ export default function Navbar() {
               <span className="sr-only">Signature Cutz</span>
               <img
                 alt="Logo"
-                src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=500"
+                src="/CutzLogo.png"
                 className="h-8 w-auto"
               />
             </Link>

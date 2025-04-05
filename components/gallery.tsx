@@ -4,17 +4,25 @@
 import Image from "next/image";
 
 const images = [
-  "/dommilly.jpg",
-  "/dommilly.jpg",
-  "/dommilly.jpg",
-  "/dommilly.jpg",
-  "/dommilly.jpg",
-  "/dommilly.jpg"
+  "/gallery1.jpg",
+  "/gallery2.jpg",
+  "/gallery3.jpg",
+  "/gallery4.jpg",
+  "/gallery5.jpg",
+  "/gallery6.jpg",
+  "/gallery7.jpg",
+  "/gallery8.jpg",
+  "/gallery9.jpg",
+  "/gallery10.jpg",
+  "/gallery11.jpg",
+  "/gallery12.jpg",
+  "/gallery13.jpg",
+  "/gallery14.jpg"
 ];
 
 export function Gallery() {
   return (
-    <section id="gallery" className="relative py-20 px-4 bg-gradient-to-br from-gray-100 to-white">
+    <section id="gallery" className="relative py-20 px-4 bg-[#0a0f1c]">
       {/* Soft blurred background shapes */}
       <div className="absolute inset-0 -z-10">
         <div className="absolute top-0 left-1/3 w-96 h-96 bg-purple-200 opacity-30 rounded-full blur-3xl"></div>
@@ -22,7 +30,7 @@ export function Gallery() {
       </div>
 
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl font-bold text-center mb-12 text-gray-800 drop-shadow-sm">
+        <h2 className="text-4xl font-bold text-center mb-12 text-white drop-shadow-sm">
           Gallery
         </h2>
 

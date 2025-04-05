@@ -1,61 +1,67 @@
-import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/20/solid'
+import { CloudArrowUpIcon, LockClosedIcon } from '@heroicons/react/20/solid'
+import Link from 'next/link' // Import the Link component
 
-const features = [
+const historyFeatures = [
   {
-    name: 'Push to deploy.',
+    name: 'Our Beginning.',
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+      'Signature Cutz started with a simple goal: to provide exceptional haircuts and create a space where clients feel like family. From our humble beginnings, we’ve grown into a trusted name, especially among NFL players.',
     icon: CloudArrowUpIcon,
   },
   {
-    name: 'SSL certificates.',
-    description: 'Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.',
+    name: 'A Commitment to Quality.',
+    description:
+      'With every haircut, we prioritize quality and precision. Our team of skilled barbers are dedicated to delivering outstanding styles that keep our clients looking sharp, game day ready, and feeling confident.',
     icon: LockClosedIcon,
-  },
-  {
-    name: 'Database backups.',
-    description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
-    icon: ServerIcon,
   },
 ]
 
 export default function History() {
   return (
-    <div className="overflow-hidden bg-gray-900 py-24 sm:py-32">
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
-          <div className="lg:ml-auto lg:pl-4 lg:pt-4">
-            <div className="lg:max-w-lg">
-              <h2 className="text-base/7 font-semibold text-indigo-600">Deploy faster</h2>
-              <p className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-white sm:text-5xl">
-                Story behind barbershop
+    <div className="overflow-hidden bg-[#0a0f1c] py-24 sm:py-32">
+      <div className="mx-auto max-w-7xl md:px-6 lg:px-8">
+        <div className="grid grid-cols-1 lg:grid-cols-2 lg:items-center lg:flex-row flex-col gap-x-16 gap-y-16 sm:gap-y-20">
+          
+          {/* Left Side Image */}
+          <div className="w-full h-full overflow-hidden rounded-2xl">
+            <img
+              src="/sigCutz.jpeg" // Replace with the image of your barbershop's history or photo
+              alt="Barbershop history"
+              className="w-full h-[500px] object-cover object-center rounded-2xl shadow-lg"
+            />
+          </div>
+
+          {/* Right Side Text */}
+          <div className="px-6 md:px-0 lg:pl-10">
+            <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-lg">
+              
+              <p className="mt-2 text-4xl font-bold tracking-tight text-white sm:text-5xl">
+                A History of Excellence
               </p>
-              <p className="mt-6 text-lg/8 text-white">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque,
-                iste dolor cupiditate blanditiis ratione.
+              <p className="mt-6 text-lg text-white">
+                Signature Cutz has been serving the community with precision and style for years. We've made a name for ourselves in the world of professional athletes and everyday customers alike, creating an experience that goes beyond just a haircut.
               </p>
-              <dl className="mt-10 max-w-xl space-y-8 text-base/7 text-white lg:max-w-none">
-                {features.map((feature) => (
+              <dl className="mt-10 space-y-8 text-base text-white">
+                {historyFeatures.map((feature) => (
                   <div key={feature.name} className="relative pl-9">
                     <dt className="inline font-semibold text-white">
-                      <feature.icon aria-hidden="true" className="absolute left-1 top-1 size-5 text-indigo-600" />
+                      <feature.icon className="absolute left-1 top-1 size-5 text-indigo-600" aria-hidden="true" />
                       {feature.name}
                     </dt>{' '}
                     <dd className="inline">{feature.description}</dd>
                   </div>
                 ))}
               </dl>
+              <div className="mt-10">
+                <Link href="/aboutus">
+                  <button className="rounded-md bg-indigo-600 px-6 py-3 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 transition">
+                    Learn More About Us
+                  </button>
+                </Link>
+              </div>
             </div>
           </div>
-          <div className="flex items-start justify-end lg:order-first">
-            <img
-              alt="Product screenshot"
-              src="https://tailwindcss.com/plus-assets/img/component-images/dark-project-app-screenshot.png"
-              width={2432}
-              height={1442}
-              className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
-            />
-          </div>
+
         </div>
       </div>
     </div>
