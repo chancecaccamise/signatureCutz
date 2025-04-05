@@ -82,7 +82,7 @@ export default function AboutUs() {
             Ready to Book Your Appointment?
           </h2>
           <p className="mx-auto mt-6 max-w-xl text-lg text-gray-600">
-            Whether you need a quick trim or a complete style overhaul, we're here for you. Click below to book your appointment now.
+            Whether you need a quick trim or a complete style overhaul, we&apos;re here for you. Click below to book your appointment now.
           </p>
           <div className="mt-16">
             <a href="/contact">
