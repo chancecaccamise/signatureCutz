@@ -24,7 +24,7 @@ export default function Services() {
               Signature Cut
             </h2>
             <p className="text-gray-300 max-w-3xl mb-6">
-              Our Signature Cut is designed to deliver precision and style. Whether you're preparing for a big day or just a casual outing, this haircut will leave you feeling confident and refreshed. <br />
+              Our Signature Cut is designed to deliver precision and style. Whether you&apos;re preparing for a big day or just a casual outing, this haircut will leave you feeling confident and refreshed. <br />
               <span className="text-white font-semibold">Includes:</span> Detailed consultation, customized cut based on your face shape and hair texture, nape taper, nape shave, and styling with your choice of products.
             </p>
             <Link href="https://app.thecut.co/barbers/kennyh">
@@ -40,7 +40,7 @@ export default function Services() {
               Edge Up / Shape Up
             </h2>
             <p className="text-gray-300 max-w-3xl mb-6">
-              Keep your beard looking sharp with our Edge Up / Shape Up service. Whether you're maintaining a clean beard or shaping it up for a polished look, our barbers will ensure it’s perfect every time. <br />
+              Keep your beard looking sharp with our Edge Up / Shape Up service. Whether you&apos;re maintaining a clean beard or shaping it up for a polished look, our barbers will ensure it&apos;s perfect every time. <br />
               <span className="text-white font-semibold">Includes:</span> Thorough consultation, beard trim, straight razor line-up, hot towel treatment, and styling with the beard product of your choice.
             </p>
             <Link href="https://app.thecut.co/barbers/kennyh">
