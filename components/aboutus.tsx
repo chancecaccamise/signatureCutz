@@ -85,7 +85,7 @@ export default function AboutUs() {
             Whether you need a quick trim or a complete style overhaul, we&apos;re here for you. Click below to book your appointment now.
           </p>
           <div className="mt-16">
-            <a href="/contact">
+            <a href="/https://app.thecut.co/barbers/kennyh">
               <button className="rounded-md bg-black px-6 py-3 text-sm font-semibold text-white shadow-sm hover:bg-gray-300 transition">
                 Book Now
               </button>
