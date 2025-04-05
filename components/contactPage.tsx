@@ -11,8 +11,8 @@ const Meeting = () => {
         <div className="md:w-2/5">
           <h1 className="text-4xl font-semibold pt-10">Get in Touch </h1>
           <p className="text-lg text-gray-300 py-4">
-            Have questions or ready to book your next appointment? We’d love to hear from you! 
-            Whether you're looking for a fresh cut, beard grooming, or simply need advice on your style, 
+            Have questions or ready to book your next appointment? We&apos;d love to hear from you! 
+            Whether you&apos;re looking for a fresh cut, beard grooming, or simply need advice on your style, 
             our team at Signature Cutz is here to help.
           </p>
 
@@ -21,7 +21,7 @@ const Meeting = () => {
           {[ 
             {
               title: "Easy Booking",
-              description: "Fill out the form to schedule an appointment at your convenience, and we’ll confirm your slot.",
+              description: "Fill out the form to schedule an appointment at your convenience, and we&apos;ll confirm your slot.",
             },
             {
               title: "Expert Stylists",
@@ -29,7 +29,7 @@ const Meeting = () => {
             },
             {
               title: "Walk-ins Welcome",
-              description: "No need to schedule in advance—just walk in and we’ll take care of you as soon as possible!",
+              description: "No need to schedule in advance—just walk in and we&apos;ll take care of you as soon as possible!",
             },
           ].map((item, index) => (
             <div key={index} className="flex gap-x-4 py-4">

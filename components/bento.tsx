@@ -89,7 +89,7 @@ export default function BentoGrid() {
                 <div className="p-6 pt-2">
                   <h3 className="text-lg font-semibold text-indigo-600">Gallery</h3>
                   <p className="mt-1 text-sm text-gray-600">
-                    Explore our portfolio of work and see how we've helped others achieve their goals.
+                    Explore our portfolio of work and see how we&apos;ve helped others achieve their goals.
                   </p>
                 </div>
               </div>

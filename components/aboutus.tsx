@@ -40,7 +40,7 @@ export default function AboutUs() {
             </h1>
             <div className="mt-6 max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1">
               <p className="text-lg font-medium text-white sm:text-xl">
-                From a small shop to a staple in Buffalo's grooming scene, we’ve been committed to making sure you look your best.
+                From a small shop to a staple in Buffalo&apos;s grooming scene, we&apos;ve been committed to making sure you look your best.
               </p>
             </div>
             <img
