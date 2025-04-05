@@ -8,10 +8,10 @@ const WhereToFindUs = () => {
       <div className="md:w-1/2 mb-6 md:mb-0 md:pr-10">
         <h2 className="text-4xl font-semibold mb-4 text-gray-800">Visit Us at Signature Cutz</h2>
         <p className="text-lg text-gray-700 mb-4">
-          We're conveniently located in the heart of Buffalo, NY, just off Main Street. Whether you&apos;re looking for a fresh haircut, a sharp beard trim, or a completely new style, our talented and experienced barbers are ready to help you look your best.
+          We&apos;re conveniently located in the heart of Buffalo, NY, just off Main Street. Whether you&apos;re looking for a fresh haircut, a sharp beard trim, or a completely new style, our talented and experienced barbers are ready to help you look your best.
         </p>
         <p className="text-lg text-gray-700 mb-6">
-          Come by our shop at 2312 Main Street—no appointment needed! We&apos;re open to walk-ins, or you can easily book ahead. Check out the map below to see exactly where we are, and feel free to stop in for a cut whenever it's convenient for you.
+          Come by our shop at 2312 Main Street—no appointment needed! We&apos;re open to walk-ins, or you can easily book ahead. Check out the map below to see exactly where we are, and feel free to stop in for a cut whenever it&apos;s convenient for you.
         </p>
         <div className="flex flex-wrap gap-4">
           <div className="flex items-center text-gray-800">

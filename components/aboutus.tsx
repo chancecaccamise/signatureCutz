@@ -45,7 +45,7 @@ export default function AboutUs() {
             </div>
             <img
               alt="Signature Cutz Barbershop"
-              src="https://images.unsplash.com/photo-1567532900872-f4e906cbf06a?ixlib=rb-4.0.3&auto=format&fit=crop&w=1280&q=80"
+              src="/sigCutz.jpeg"
               className="mt-10 aspect-[6/5] w-full max-w-lg rounded-2xl object-cover sm:mt-16 lg:mt-0 lg:max-w-none xl:row-span-2 xl:row-end-2 xl:mt-36"
             />
           </div>
